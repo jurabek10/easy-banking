@@ -227,3 +227,44 @@ main {
 .site-header__sitenav {
     margin-right: 226px;
 }
+
+
+
+/* HERO */
+.hero {
+    padding-top: 170px;
+    padding-bottom: 178px;
+    background-color: #fafafa;
+    background-image: url("../img/hero-phones-desktop.svg");
+    background-repeat: no-repeat;
+    background-position: 795px -120px;
+}
+
+.hero__container {
+    display: flex;
+}
+
+.hero__info {
+    width: 447px;
+}
+
+.hero__title {
+    margin-top: 0;
+    margin-bottom: 24px;
+    color: var(--title-color);
+    font-size: 56px;
+    font-style: normal;
+    font-weight: 100;
+    line-height: 64px; /* 114.286% */
+    letter-spacing: -1px;
+}
+
+.hero__text {
+    margin-top: 0;
+    margin-bottom: 36px;
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: -0.3px;
+}
+
+

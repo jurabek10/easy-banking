@@ -1,5 +1,41 @@
-/* GLOBAL STYLES */
+/* CUSTOM PROPS */
+:root {
+    --text-color: #9597A5;
+    --title-color: #2D314D;
+}
 
+
+/* FONTS-FACE */
+@font-face {
+    font-family: 'Public Sans';
+    src: url('PublicSans-Thin.woff2') format('woff2'),
+    url('PublicSans-Thin.woff') format('woff');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Public Sans';
+    src: url('PublicSans-Regular.woff2') format('woff2'),
+    url('PublicSans-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Public Sans';
+    src: url('PublicSans-Medium.woff2') format('woff2'),
+    url('PublicSans-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+
+/* GLOBAL STYLES */
 html {
     height: 100%;
     box-sizing: border-box;
@@ -18,11 +54,12 @@ body {
     height: 100%;
     padding: 0;
     margin: 0;
-    font-size: 16px;
-    line-height: 1.5;
-    font-family: "Arial", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+    font-family: "Public Sans", "Arial", sans-serif;
     background-color: #fff;
-    color: #222;
+    color: var(--text-color);
 }
 
 img {
@@ -72,9 +109,9 @@ select:-webkit-autofill:focus {
 
 .container {
     width: 100%;
-    max-width: 1200px;
-    padding-left: 50px;
-    padding-right: 50px;
+    max-width: 1150px;
+    padding-left: 20px;
+    padding-right: 20px;
     margin-right: auto;
     margin-left: auto;
 }
